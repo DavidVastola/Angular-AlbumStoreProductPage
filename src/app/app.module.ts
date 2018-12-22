@@ -18,8 +18,6 @@ const appRoutes: Routes = [
   { path: '', redirectTo: 'products', pathMatch: 'full'}
  ];
 
-export class AppRoutingModule {}
-
 @NgModule({
   declarations: [
     AppComponent,
